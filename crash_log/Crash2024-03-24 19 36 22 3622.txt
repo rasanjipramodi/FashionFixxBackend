@@ -1,0 +1,11 @@
+AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1667:5)
+    --------------------
+    at Protocol._enqueue (/Users/tharakamohotti/Developer/iOS/FashionFixxBackend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tharakamohotti/Developer/iOS/FashionFixxBackend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/Users/tharakamohotti/Developer/iOS/FashionFixxBackend/node_modules/mysql/lib/Connection.js:116:18)
+    at reconnect (/Users/tharakamohotti/Developer/iOS/FashionFixxBackend/helpers/db_helpers.js:18:16)
+    at Timeout._onTimeout (/Users/tharakamohotti/Developer/iOS/FashionFixxBackend/helpers/db_helpers.js:25:17)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
